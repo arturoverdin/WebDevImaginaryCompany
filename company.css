@@ -1,0 +1,74 @@
+body,html {
+    color: #000000;
+    margin:0;
+    background-color: #e5e5e5;
+
+}
+
+.box {
+    margin-top:20px;
+    padding: 5%;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.brand {
+    font-family: 'Jim Nightshade', cursive;
+}
+
+.header {
+    background-image: url("images/wes-hicks-MEL-jJnm7RQ-unsplash.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    text-align: left;
+    color: #000000;
+}
+
+.header p {
+    margin-bottom: 15%;
+}
+
+.overlay p {
+    text-align: center;
+    color: #e5e5e5;
+}   
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    color: black;
+    background: rgba(0,0,0,.5);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.image-container {
+    margin: 2%;
+    box-sizing: border-box;
+}
+
+img {
+    width:100%;
+}
+
+h2 {
+    color: #2a9d8f;
+}
+
+h1 {
+    color: #2a9d8f;
+    font-size: 68px;
+    margin-top: 7%; 
+    text-align: center;
+}
+
+
+
